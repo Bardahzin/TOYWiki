@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 
 
-const parse = require('../services/DiceService.js');//importa a função parse para processar o input dos dados
+const parse = require('../services/DiceService/DiceService.js');//importa a função parse para processar o input dos dados
 
 
 router.get('/', (req, res) => {
